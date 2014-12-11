@@ -1,0 +1,194 @@
+/* Default Layout (Desktop & Tablets) */
+
+body {
+	padding:0;
+	margin:0;
+	font-size:16pt;
+}
+
+h1 {
+	margin:0 0 0.25em;
+	font-size:28pt;
+}
+
+h1 img {
+	margin-right:20px;
+}
+
+h2, h3, h4 {
+	margin:0.75em 0;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+	display:inline-block;
+}
+
+h2:first-child,
+h3:first-child,
+h4:first-child {
+	margin-top:0;
+}
+
+h2 {
+	font-size:22pt;
+}
+
+h3 {
+	font-size:18pt;
+}
+
+h4 {
+	font-size:16pt;
+}
+
+p {
+	line-height:1.75em;
+	margin:1.25em 0;
+}
+
+p:first-child {
+	margin-top:0;
+}
+
+menu, ul, ol {
+	margin:0;
+}
+
+menu, ul {
+	list-style:none;
+	padding:0 0 0 20px;
+}
+
+menu li,
+ul li,
+ol li {
+	padding:10px 0 0;
+}
+
+menu li:first-child,
+ul li:first-child,
+ol li:first-child {
+	padding-top:0;
+}
+
+section {
+	flex:1;
+}
+
+.Window {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content:flex-start;
+	align-items:stretch;
+}
+
+.Content {
+	max-width:960px;
+	padding:30px 20px;
+	margin:0 auto;
+}
+
+.Content:after {
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+
+.Toolbar {
+	flex:none;
+}
+
+.Toolbar h1 {
+	float:left;
+}
+
+.Toolbar .User {
+	float:right;
+}
+
+.Toolbar .User a {
+	display:block;
+	vertical-align:top;
+}
+
+.Toolbar .User a img {
+	margin-right:10px;
+}
+
+.Drawer {
+	float:left;
+	width:33%;
+}
+
+.Drawer menu {
+	padding-right:60px;
+}
+
+.Grid:after {
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+
+.Grid img {
+	float:left;
+}
+
+.Store {
+	margin-bottom:30px;
+}
+
+.Network {
+	float:left;
+	width:66%;
+}
+
+.Network:after {
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+
+.Network .Groups,
+.Network .Users {
+	float:left;
+	width:50%;
+}
+
+.Network .Groups ul {
+	padding-right:60px;
+}
+
+.Network .Groups ul li:after {
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+
+.Network .Groups ul li > a {
+	display:inline-block;
+	float:left;
+}
+
+.Network .Groups ul li > span {
+	float:right;
+	font-size:0.75em;
+}
+
+.Users a img {
+	margin-right:10px;
+}
