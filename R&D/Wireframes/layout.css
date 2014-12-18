@@ -3,12 +3,12 @@
 body {
 	padding:0;
 	margin:0;
-	font-size:16pt;
+	font-size:13pt;
 }
 
 h1 {
 	margin:0 0 0.25em;
-	font-size:28pt;
+	font-size:20pt;
 }
 
 h1 img {
@@ -29,16 +29,20 @@ h4:first-child {
 	margin-top:0;
 }
 
+h1 {
+vertical-align:center;
+}
+
 h2 {
-	font-size:22pt;
+	font-size:16pt;
 }
 
 h3 {
-	font-size:18pt;
+	font-size:17pt;
 }
 
 h4 {
-	font-size:16pt;
+	font-size:15pt;
 }
 
 p {
@@ -88,10 +92,28 @@ section {
 	align-items:stretch;
 }
 
-.Content {
-	max-width:960px;
+.userContent {
 	padding:30px 20px;
 	margin:0 auto;
+}
+
+.sideMenu {
+  top: 50px;
+  position:fixed;
+  margin:0 auto;
+  vertical-align: top;
+  width: 25%;
+  min-height: 100%;
+  }
+  
+ .Options {
+ margin-left: 15px;
+ padding-top: 6px;
+ }
+  
+.Content {
+	width:75%;
+	float:right;
 }
 
 .Content:after {
@@ -112,6 +134,8 @@ section {
 
 .Toolbar .User {
 	float:right;
+	margin-top:10px;
+	margin-right:20px;
 }
 
 .Toolbar .User a {
@@ -123,34 +147,24 @@ section {
 	margin-right:10px;
 }
 
-.Drawer {
-	float:left;
-	width:33%;
-}
-
-.Drawer menu {
-	padding-right:60px;
-}
-
-.Grid:after {
-	content:".";
-	clear:both;
-	display:block;
-	height:0;
-	visibility:hidden;
-}
-
-.Grid img {
-	float:left;
+.Grid {
+	margin-left:auto;
+	margin-right:auto;
+	float:center;
+	width:80%
 }
 
 .Store {
 	margin-bottom:30px;
 }
 
+
+
 .Network {
-	float:left;
-	width:66%;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	float:center;
 }
 
 .Network:after {
